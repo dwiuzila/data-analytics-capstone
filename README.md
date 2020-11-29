@@ -1,6 +1,6 @@
 # Web-Scrapping using Beautifulsoup
 
-Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Academy Data Analytics Specialization. Deliverables yang diharapkan dari projek ini adalah melakukan simple webscrapping untuk mendapatkan informasi. Untuk step by step guide, Bapak Ibu dipersilahkan untuk membuka git saya [Click here](https://github.com/t3981-h/Webscrapping-with-BeautifulSoup "Webscrapping with Beautiful Soup"). Kita juga akan memanfaatkan flask dashboard sederhana untuk menampilkan hasil scrap dan visualisasi kita.
+Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Academy Data Analytics Specialization. Deliverables yang diharapkan dari projek ini adalah melakukan simple webscrapping untuk mendapatkan informasi. Untuk step by step guide, silakan buka [git instructor saya](https://github.com/t3981-h/Webscrapping-with-BeautifulSoup "Webscrapping with Beautiful Soup"). Kita juga akan memanfaatkan flask dashboard sederhana untuk menampilkan hasil scrap dan visualisasi kita.
 
 ## Dependencies
 
@@ -9,7 +9,7 @@ Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Acade
 - flask
 - matplotlib
 
-Atau Bapak Ibu cukup menginstall requirements.txt dengan cara berikut
+Atau cukup menginstall requirements.txt dengan cara berikut
 
 ```python
 pip install -r requirements.txt
@@ -26,35 +26,35 @@ pip install -r requirements.txt
 
 ## What You Need to Do
 
-* Silahkan mencoba melakukan scraping soal di bawah menggunakan `beautiful soup` di notebook Bapak/Ibu terlebih dahulu.
-* Bapak/Ibu dapat men-clone repo ini.
-* Silahkan buka notebook template pada capstone ini dan isi sesuai dengan arahan yang ada. Pastikan Bapak/Ibu memberikan analisa yang dibutuhkan pada notebook tersebut.
+* Silahkan mencoba melakukan scraping soal di bawah menggunakan `beautiful soup` di notebook terlebih dahulu.
+* Silahkan men-clone repo ini.
+* Silahkan buka notebook template pada capstone ini dan isi sesuai dengan arahan yang ada. Pastikan memberikan analisa yang dibutuhkan pada notebook tersebut.
 * File di repo ini adalah skeleton yang dapat digunakan untuk membuat flask dashboard sederhana.
 * Silahkan isi di bagian yang masih kosong.
-* Isi fungsi `scrap` dengan proses scraping yang sudah Bapak/Ibu lakukan di notebook. 
+* Isi fungsi `scrap` dengan proses scraping yang sudah dilakukan di notebook. 
 
 ```python
 table = soup.find(___)
 tr = table.find_all(___)
 ```
 
-* Isi bagian ini untuk menyimpan hasil scrap yang Bapak/Ibu buat menjadi sebuah dataframe.
+* Isi bagian ini untuk menyimpan hasil scrap yang dibuat menjadi sebuah dataframe.
 
 ```python
 df = pd.DataFrame(name of your tupple, columns = (name of the columns))
 ```
 
-* Terakhir Bapak/Ibu dapat menggunakan fungsi `scrap` dengan cara mengisi bagian berikut dengan link web yang Bapak/Ibu scrap.
+* Terakhir, silahkan dapat menggunakan fungsi `scrap` dengan cara mengisi bagian berikut dengan link web yang di-scrap.
 
 ```python
 df = scrap(___) #insert url here
 ```
 
-* Bapak/Ibu juga dapat bermain dengan UI nya pada `index.html` yang dimana Bapak/Ibu dapat mengikuti comment yang ada untuk mengetahui bagian mana yang dapat diubah. 
+* Selain itu, kita juga dapat bermain dengan UI nya pada `index.html` di mana comment yang ada dapat diikuti untuk mengetahui bagian mana yang dapat diubah. 
 
 ### The Final Mission
 
-Pada captsone kali ini, Bapak Ibu bisa memilih salah satu soal ini untuk dikerjakan.
+Pada captsone kali ini, silahkan memilih salah satu soal ini untuk dikerjakan.
 
 1. Data kurs US Dollar ke rupiah dari `https://www.exchange-rates.org/history/IDR/USD/T`
 
